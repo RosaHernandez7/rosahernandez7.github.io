@@ -1,55 +1,43 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Rosa Hernández | Desarrolladora Java</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 80px;
-      background: #F2CEBD;
-      color: #333;
-    }
-    h1 { color: #2c3e50; }
-    section {
-      background: white;
-      padding: 20px;
-      margin-bottom: 20px;
-      border-radius: 8px;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi Portafolio</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-  <section>
-    <h1>Hola, soy Rosa Hernández </h1>
-    <p>Soy Desarrolladora Java, con experiencia en el mundo financiero desde hace 3 años y medio, apasionada por el desarrollo backend y microservicios. 
-      Les presento a continuacíón un poco de mi viaje por el desarrollo de software</p>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <img src="assets/profile.jpg" alt="Foto de perfil" class="avatar">
+
+      <div class="hero-text">
+        <h1>Hola, soy Rosa.</h1>
+        <p>
+        Soy Desarrolladora Java, con experiencia en el mundo financiero desde hace 3 años y medio, 
+          apasionada por el desarrollo backend y microservicios. Les presento a continuacíón un poco 
+          de mi viaje por el desarrollo de software.
+        </p>
+        <!--button class="btn">Book a call</button-->
+      </div>
+    </div>
   </section>
 
-  <section>
-    <h2>🛠 Tecnologías</h2>
-    <ul>
-      <li>Java 8+</li>
-      <li>Spring Boot</li>
-      <li>Microservicios</li>
-      <li>REST APIs</li>
-      <li>Git / GitHub</li>
-    </ul>
+  <!-- WORK -->
+  <section class="work">
+    <h2>Work Examples</h2>
+
+    <div class="projects">
+      <img src="assets/project1.png" alt="Proyecto 1">
+      <img src="assets/project2.png" alt="Proyecto 2">
+      <img src="assets/project3.png" alt="Proyecto 3">
+    </div>
+
+    <button class="btn-outline">View all projects</button>
   </section>
 
-  <section>
-    <h2>📂 Proyectos</h2>
-    <p>
-      <a href="https://github.com/RosaHernandez7">Ver mis proyectos en GitHub</a>
-    </p>
-  </section>
-
-  <section>
-    <h2>📬 Contacto</h2>
-    <p>Email: rosahg1811@gmail.com</p>
-    <p>LinkedIn: linkedin.com/in/tu-perfil</p>
-  </section>
-
+  <script src="js/main.js"></script>
 </body>
 </html>
